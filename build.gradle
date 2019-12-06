@@ -85,11 +85,7 @@ jar {
 
 tasks.withType(com.github.spotbugs.SpotBugsTask) {
 	reports {
-		html {
-			enabled = true
-		}
-		xml {
-			enabled = false
-		}
+		html.enabled = true
+		xml.enabled = false
 	}
 }
